@@ -1,0 +1,84 @@
+body::before {
+    background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    background-color: black;
+}
+
+.eye :focus {     
+    background-color:white;  
+}
+
+.eye img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.clicked {
+    background:white; 
+}
+
+p {
+    color: black;
+}
+.one {
+    position: absolute;
+    left:10px;
+    top:10px;
+    width: 200px;
+}
+.ano {
+    color:#979696;
+}
+.two {
+    position: absolute;
+    left: 220px;
+    top:50px;
+    width: 200px;
+}
+.three {
+    position: absolute;
+    left: 420px;
+    top:10px;
+    width: 200px;
+}
+.four {
+    position: absolute;
+    left: 620px;
+    top:40px;
+    width: 200px;
+}
+.five {
+    position: absolute;
+    left: 830px;
+    top:100px;
+    width: 200px;
+}
+.six {
+    position: absolute;
+    left: 1030px;
+    top:20px;
+    width: 200px;
+}
+.seven {
+    position: absolute;
+    left: 1030px;
+    top:200px;
+    width: 200px;
+}
+.eight {
+    position: absolute;
+    left: 10px;
+    top:300px;
+    width: 200px;
+}
