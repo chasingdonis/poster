@@ -30,6 +30,8 @@ body::before {
 
 p {
     color: black;
+    font-size: 12px;
+    font-family: 'Istok Web', Helvetica, sans-serif;
 }
 .one {
     position: absolute;
@@ -61,24 +63,42 @@ p {
 .five {
     position: absolute;
     left: 830px;
-    top:100px;
+    top:10px;
     width: 200px;
 }
 .six {
     position: absolute;
-    left: 1030px;
+    left: 1040px;
     top:20px;
     width: 200px;
 }
 .seven {
     position: absolute;
-    left: 1030px;
+    left: 1050px;
     top:200px;
     width: 200px;
 }
 .eight {
     position: absolute;
     left: 10px;
-    top:300px;
+    top:200px;
     width: 200px;
+}
+.nine {
+    position: absolute;
+    left: 20px;
+    top:340px;
+    width: 200px;
+}
+.ten {
+    position: absolute;
+    left: 240px;
+    top:250px;
+    width: 200px;
+}
+.eleven {
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    width: 150px;
 }
