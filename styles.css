@@ -42,7 +42,7 @@ body::before {
     position: fixed;
     bottom:0;
     left: 35%;
-    padding: 5px;
+    padding: 8px;
     z-index: 2;
 }
 
@@ -52,7 +52,6 @@ p {
     color: black;
     font-size: 12px;
     font-family: 'Expletus Sans','Averia Serif Libre','Didact Gothic','Istok Web', Helvetica, sans-serif;
-    padding: 10px;
 }
 .one {
     position: absolute;
@@ -175,7 +174,7 @@ p {
 .twenty {
     position: absolute;
     left:1220px;
-    top: 580px;
+    top: 600px;
     width: 180px;
 }
 .twentyone {
@@ -218,12 +217,12 @@ p {
     position: absolute;
     left:1120px;
     top: 950px;
-    width: 300px;
+    width: 270px;
 }
 .twentyeight {
     position: absolute;
     left:1120px;
-    top: 1100px;
+    top: 1080px;
     width: 250px;
 }
 .twentynine {
@@ -234,7 +233,7 @@ p {
 }
 .thirty {
     position: absolute;
-    left:280px;
+    left:270px;
     top: 1220px;
     width: 180px;
 }
