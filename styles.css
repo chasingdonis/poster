@@ -18,8 +18,9 @@ body::before {
 
 .eye img {
     position: absolute;
+    top:0;
     left: 0;
-    width: 100%;
+    width: 1420px;
     margin: 0;
     padding: 0;
 }
@@ -27,11 +28,31 @@ body::before {
 .clicked {
     background:white; 
 }
+.sub {
+    color: white;
+    font-size: 26px;
+    position: fixed;
+    bottom:0;
+    left: 3%;
+}
+.sub2 {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    position: fixed;
+    bottom:0;
+    left: 35%;
+    padding: 5px;
+    z-index: 2;
+}
+
+a {color:orange}
 
 p {
     color: black;
     font-size: 12px;
-    font-family: 'Istok Web', Helvetica, sans-serif;
+    font-family: 'Expletus Sans','Averia Serif Libre','Didact Gothic','Istok Web', Helvetica, sans-serif;
+    padding: 10px;
 }
 .one {
     position: absolute;
@@ -40,7 +61,8 @@ p {
     width: 200px;
 }
 .ano {
-    color:#979696;
+    color:#793d1f;
+    font-size: 14px;
 }
 .two {
     position: absolute;
@@ -51,20 +73,20 @@ p {
 .three {
     position: absolute;
     left: 420px;
-    top:10px;
+    top:5px;
     width: 200px;
 }
 .four {
     position: absolute;
-    left: 620px;
-    top:40px;
-    width: 200px;
+    left: 665px;
+    top:30px;
+    width: 150px;
 }
 .five {
     position: absolute;
     left: 830px;
     top:10px;
-    width: 200px;
+    width: 190px;
 }
 .six {
     position: absolute;
@@ -76,18 +98,18 @@ p {
     position: absolute;
     left: 1050px;
     top:200px;
-    width: 200px;
+    width: 300px;
 }
 .eight {
     position: absolute;
     left: 10px;
-    top:200px;
+    top:180px;
     width: 200px;
 }
 .nine {
     position: absolute;
     left: 20px;
-    top:340px;
+    top:320px;
     width: 200px;
 }
 .ten {
@@ -99,6 +121,144 @@ p {
 .eleven {
     position: absolute;
     left: 450px;
-    top: 150px;
+    top: 120px;
+    width: 180px;
+}
+.twelve {
+    position: absolute;
+    left: 5px;
+    top: 480px;
+    width: 200px;
+}
+.thirteen {
+    position: absolute;
+    left: 220px;
+    top: 460px;
+    width: 210px;
+}
+.forteen {
+    position: absolute;
+    left:450px;
+    top: 280px;
+    width: 200px;
+}
+.fifteen {
+    position: absolute;
+    left:990px;
+    top: 380px;
+    width: 200px;
+}
+.sixteen {
+    position: absolute;
+    left:1200px;
+    top: 320px;
+    width: 200px;
+}
+.seventeen {
+    position: absolute;
+    left:10px;
+    top: 750px;
+    width: 200px;
+}
+.eighteen {
+    position: absolute;
+    left:220px;
+    top: 680px;
+    width: 200px;
+}
+.nineteen {
+    position: absolute;
+    left:1000px;
+    top: 650px;
+    width: 200px;
+}
+.twenty {
+    position: absolute;
+    left:1220px;
+    top: 580px;
+    width: 180px;
+}
+.twentyone {
+    position: absolute;
+    left:30px;
+    top: 1020px;
+    width: 180px;
+}
+.twentytwo {
+    position: absolute;
+    left:230px;
+    top:920px;
+    width: 200px;
+}
+.twentythree {
+    position: absolute;
+    left:450px;
+    top:980px;
+    width: 200px;
+}
+.twentyfour {
+    position: absolute;
+    left:1250px;
+    top:20px;
     width: 150px;
+}
+.twentyfive {
+    position: absolute;
+    left:680px;
+    top: 1000px;
+    width: 200px;
+}
+.twentysix {
+    position: absolute;
+    left:900px;
+    top: 950px;
+    width: 200px;
+}
+.twentyseven {
+    position: absolute;
+    left:1120px;
+    top: 950px;
+    width: 300px;
+}
+.twentyeight {
+    position: absolute;
+    left:1120px;
+    top: 1100px;
+    width: 250px;
+}
+.twentynine {
+    position: absolute;
+    left:50px;
+    top: 1240px;
+    width: 200px;
+}
+.thirty {
+    position: absolute;
+    left:280px;
+    top: 1220px;
+    width: 180px;
+}
+.thirtyone {
+    position: absolute;
+    left:480px;
+    top: 1280px;
+    width: 250px;
+}
+.thirtytwo {
+    position: absolute;
+    left:750px;
+    top: 1230px;
+    width: 220px;
+}
+.thirtythree {
+    position: absolute;
+    left:990px;
+    top: 1200px;
+    width: 150px;
+}
+.thirtyfour {
+    position: absolute;
+    left:1190px;
+    top: 1230px;
+    width: 200px;
 }
